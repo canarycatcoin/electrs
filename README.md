@@ -78,6 +78,15 @@ Additional options with the `electrum-discovery` feature:
 
 See `$ cargo run --bin electrs -- --help` for the full list of options.
 
+## Docker
+
+A Docker image is automatically built and published to GitHub Container Registry on every commit.
+
+Pull the latest image:
+```bash
+docker pull ghcr.io/canarycatcoin/electrs:latest
+```
+
 ## License
 
 MIT
